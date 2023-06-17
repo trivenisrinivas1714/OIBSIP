@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color:#333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+#hero {
+  background-image: url("hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+#hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#featured-books {
+  margin-top: 40px;
+}
+
+#featured-books h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.book {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.book img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+#newsletter {
+  background-color: #f2f2f2;
+  padding: 40px;
+  text-align: center;
+}
+
+#newsletter h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#newsletter p {
+  margin-bottom: 20px;
+}
+
+form input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
